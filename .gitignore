@@ -1,0 +1,11 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor state
+.vscode/
+.idea/
+
+# Local Codex and agent state; source skills remain in their own directories.
+.codex/
+.agents/

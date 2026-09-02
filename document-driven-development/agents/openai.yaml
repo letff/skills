@@ -1,0 +1,4 @@
+interface:
+  display_name: "文档驱动开发"
+  short_description: "以方案、进度和成果文档驱动代码改动"
+  default_prompt: "使用 $document-driven-development 按标准档开展这项开发，并维护变更文档。"
