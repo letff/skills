@@ -6,12 +6,15 @@
 
 | 技能 | 用途 |
 | --- | --- |
+| `workflow-selector` | 根据任务范围选择只读、快速、标准或复杂工作流，并按需加载辅助技能。 |
 | `document-driven-development` | 按快速、标准或复杂档，以方案、进度、调整和成果文档驱动代码改动。 |
 
 ## 目录结构
 
 ```text
 .
+├─ workflow-selector/
+│  └─ SKILL.md
 ├─ document-driven-development/
 │  ├─ SKILL.md
 │  └─ agents/
@@ -29,12 +32,14 @@
 
 例如，复制 `document-driven-development` 目录后，重新打开 Codex 或刷新技能列表即可使用。
 
+推荐使用 `workflow-selector` 作为入口：只读任务直接处理；有实际修改时选择 DDD 快速、标准或复杂档。DDD 使用 `plan.md`、`progress.md`、`adjustments.md`、`continuation.md` 和 `outcome.md` 管理项目状态；通用 `handoff` 技能保持独立，项目级接续记录使用 `continuation.md`。
+
 ## 维护约定
 
 - 每项技能保持独立目录和唯一的 `name`。
 - 共享前删除令牌、内部地址、客户数据和个人绝对路径。
 - 修改技能时更新对应的 `SKILL.md`；涉及桌面界面元数据时同步更新 `agents/openai.yaml`。
-- 提交信息采用清晰的变更类型，例如 `feat: add xxx skill`、`docs: refine xxx workflow`。
+- 提交信息采用清晰的变更类型，中文或英文均可，例如 `新增工作流选择技能`、`docs: refine xxx workflow`。
 
 ## 许可证
 
