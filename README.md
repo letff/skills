@@ -34,6 +34,19 @@
 
 推荐使用 `workflow-selector` 作为入口：只读任务直接处理；有实际修改时选择 DDD 快速、标准或复杂档。DDD 使用 `plan.md`、`progress.md`、`adjustments.md`、`continuation.md` 和 `outcome.md` 管理项目状态；通用 `handoff` 技能保持独立，项目级接续记录使用 `continuation.md`。
 
+## 参考技能
+
+`workflow-selector` 的工作流选择和职责划分参考了以下技能的公开定位与使用方式：
+
+- `handoff`：会话级交接摘要；保持独立，不随本仓库修改或发布。
+- `document-driven-development`：项目级方案、进度、结果和跨会话接续记录；本仓库实际包含。
+- `ponytail`：优先采用小而直接的改动，避免无必要的复杂化。
+- `behavior-charter`：授权边界、验证要求和事实与推断的区分；不属于本仓库。
+- `i-have-adhd`：长任务的注意力和范围控制；不属于本仓库。
+- `karpathy-behavioral-guidelines`：假设、成功标准、最小修改和验证纪律；不属于本仓库。
+
+参考不表示这些技能已被复制、安装或由本仓库维护。使用 `workflow-selector` 时，应先确认辅助技能在当前环境可发现；不可用时只采用相关的简短原则。
+
 ## 维护约定
 
 - 每项技能保持独立目录和唯一的 `name`。
