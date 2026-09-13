@@ -44,7 +44,7 @@
 - `handoff`：会话级交接摘要；来自 [`mattpocock/skills`](https://github.com/mattpocock/skills/tree/main/skills/productivity/handoff) 的外部技能，保持独立，不随本仓库修改或发布。
 - `document-driven-development`：项目级方案、进度、结果和跨会话接续记录；本仓库实际包含。
 - `ponytail`：优先采用小而直接的改动，避免无必要的复杂化；外部 GitHub 技能，来源为 [`DietrichGebert/ponytail`](https://github.com/DietrichGebert/ponytail)。
-- `behavior-charter`：授权边界、验证要求和事实与推断的区分；来源为 DSH 的 `dsh-charter`，公开 GitHub 地址尚未核实。
+- `behavior-charter`：授权边界、验证要求和事实与推断的区分；来源为 DSH `@ohtokaah-sys/dsh-charter@0.1.2`，当前未确认对应的公开 GitHub 地址。
 - `i-have-adhd`：长任务的注意力和范围控制；来自 [`ayghri/i-have-adhd`](https://github.com/ayghri/i-have-adhd/tree/main/skills/i-have-adhd) 的外部技能。
 - `karpathy-behavioral-guidelines`：假设、成功标准、最小修改和验证纪律；对应公开技能为 [`forrestchang/andrej-karpathy-skills`](https://github.com/forrestchang/andrej-karpathy-skills) 中的 `karpathy-guidelines`，属于 Karpathy 风格指南的社区实现，并非 Andrej Karpathy 本人仓库。
 
